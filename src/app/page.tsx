@@ -35,7 +35,7 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }} 
           transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.4 }}
         >
-          <a href="https://expo.dev/artifacts/eas/hPZYMksqpa6JNUDedt6CKr.apk" target="_blank">
+          <a href="https://expo.dev/artifacts/eas/58Z3FZToNh7odcTpXyycBG.apk" target="_blank">
             Download APK
           </a>
         </motion.div>
