@@ -8,34 +8,34 @@ const Home = () => {
     <div className={styles.container}>
       <motion.div
         className={styles.innercontainer}
-        initial={{ y: 100, opacity: 0 }} 
-        animate={{ y: 0, opacity: 1 }} 
-        transition={{ ease: "easeOut", duration: 0.5 }} 
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
       ></motion.div>
       <div className={styles.content}>
         <motion.div
           className={styles.logo}
-          initial={{ y: 100, opacity: 0 }} 
-          animate={{ y: 0, opacity: 1 }} 
-          transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.2 }} 
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.2 }}
         >
           <img src="/images/logo.png" />
         </motion.div>
         <motion.div
           className={styles.tagline}
-          initial={{ y: 100, opacity: 0 }} 
-          animate={{ y: 0, opacity: 1 }} 
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.3 }}
         >
           Your Vision, Our Library.
         </motion.div>
         <motion.div
           className={styles.btn}
-          initial={{ y: 100, opacity: 0 }} 
-          animate={{ y: 0, opacity: 1 }} 
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.4 }}
         >
-          <a href="https://expo.dev/artifacts/eas/58Z3FZToNh7odcTpXyycBG.apk" target="_blank">
+          <a href="https://expo.dev/artifacts/eas/t2DN2Mp2XttJzcdM7DG3cM.apk" target="_blank">
             Download APK
           </a>
         </motion.div>
